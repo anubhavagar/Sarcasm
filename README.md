@@ -8,10 +8,12 @@ Try this using Google Colab Notebook for a quick preview. You can run all cells 
 2.Change Path of test file with your test.csv inside sarcasmevaluation.py file Data Directory:
   test=pd.read_csv('../Data/test-balanced/test-balanced.csv')
   
-3.Go into the output directory where the fine tuned models will be saved. There, you should have 3 files; bert_config.json, pytorch_model.bin, vocab.txt.This file is genearted after Training.
+3.Go into the output directory where the fine tuned models will be saved. There, you should have 3 files; bert_config.json, pytorch_model.bin, vocab.txt.This file is genearted after Training.You use this repository for testing purpose,You should place these files inside output directory.
 
-4.Archive the two files config.json, and pytorch_model.bin into a .tar file.
+4.Keep file vocab.txt inside current working directory.
 
-5.Compress the .tar file into gzip format. Now the file should be something like Sarcasm1.tar.gz
+5.Archive the two files config.json, and pytorch_model.bin into a .tar file.
 
-6.Run sarcasmevaluation.py with Google Colab Notebook
+6.Compress the .tar file into gzip format. Now the file should be something like Sarcasm1.tar.gz
+
+7.Run sarcasmevaluation.py with Google Colab Notebook
